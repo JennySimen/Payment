@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentActivity"
+    android:background="@drawable/man"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#73000000"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="179dp"
+            android:layout_height="74dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="107dp"
+            android:layout_marginLeft="107dp"
+            android:layout_marginTop="0dp"
+            android:paddingTop="30dp"
+            android:text="@string/word0"
+            android:textAlignment="center"
+            android:textColor="#FFFFFFFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="343dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="107dp"
+            android:text="@string/word1"
+            android:textAlignment="center"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="341dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="162dp"
+            android:text="@string/word2"
+            android:textAlignment="center"
+            android:textColor="#99FFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="307dp"
+            android:layout_height="56dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="251dp"
+            android:background="@drawable/rounded_btn2"
+            android:padding="24dp"
+            android:text="@string/word3"
+            android:textColor="#FFFFFFFF"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="135dp"
+            android:layout_height="2dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="37dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="327dp"
+            android:background="#4DFFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="184dp"
+            android:layout_marginLeft="184dp"
+            android:layout_marginBottom="176dp"
+            android:text="@string/word8"
+            android:textColor="#4DFFFFFF" />
+
+
+        <View
+            android:layout_width="135dp"
+            android:layout_height="2dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="211dp"
+            android:layout_marginLeft="211dp"
+            android:layout_marginTop="327dp"
+            android:background="#4DFFFFFF" />
+
+        <Button
+            android:id="@+id/telegram_button"
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="348dp"
+            android:background="@drawable/rounded_btn1"
+            android:text="@string/word4"
+            android:textColor="#FFFFFFFF"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/send1"
+            android:drawableStart="@drawable/send1"/>
+        <Button
+            android:id="@+id/promotional_card"
+            android:layout_width="308dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="407dp"
+            android:background="@drawable/rounded_btn1"
+            android:text="@string/word5"
+            android:textColor="#FFFFFFFF"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/form"
+            android:drawableStart="@drawable/form"/>
+
+        <TextView
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="481dp"
+            android:paddingTop="8sp"
+            android:text="@string/word6"
+            android:textAlignment="center"
+            android:textColor="#4DFFFFFF" />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="264dp"
+            android:layout_marginLeft="264dp"
+            android:layout_marginTop="480dp"
+            android:autoLink="all"
+            android:gravity="start"
+            android:linksClickable="true"
+            android:paddingTop="5dp"
+            android:text="@string/word7"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+</LinearLayout>

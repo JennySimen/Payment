@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Payment</string>
+    <string name="word1">Convenient reliable and electronic wallet</string>
+    <string name="word2">withdraw cash anytime anywhere around the world</string>
+    <string name="word0">E-Payment</string>
+    <string name="word3">REGISTER</string>
+    <string name="word4">REGISTER VIA TELEGRAM</string>
+    <string name="word5">REGISTER VIA PROMOTIONAL CARD</string>
+    <string name="word6">ALREADY HAVE AN ACCOUNT?</string>
+    <string name="word7">LOGIN</string>
+    <string name="word8">or</string>
+    <string name="e_mail">noreply@payment.firebase.com</string>
+    <string name="word9">User Name </string>
+    <string name="word10">Password </string>
+    <string name="word11">Terms of service</string>
+    <string name="word12">Confirm Password</string>
+    <string name="word13">Forgot Password</string>
+</resources>
